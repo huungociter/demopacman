@@ -1,0 +1,106 @@
+#canvas {
+    margin: 40px 230px;
+    justify-content: center;
+    border: solid gray 8px;
+    background-color: rgb(4, 39, 68);
+}
+
+body {
+    background-image: url("Backgr.jpg");
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#Manhinhchinh {
+    color: red;
+    font-size: 20px;
+    margin-top: 20vh;
+    padding: 100px 0px;
+    margin-left: 65vh;
+    background-color: rgb(3, 14, 70);
+    width: 500px;
+    border-radius: 7px;
+    display: block;
+}
+
+#input {
+    border: none;
+    padding: 20px 10px;
+    width: 250px;
+    border-radius: 6px;
+}
+
+#StartGame {
+    border: none;
+    padding: 17px 10px;
+    background-color: rgba(12, 184, 147, 0.842);
+    margin-left: 2px;
+    border-radius: 6px;
+    color: red;
+    font-weight: bold;
+}
+
+#StartGame:hover {
+    color: rgb(8, 52, 187);
+    transform: scale(1.05, 1.05);
+    border: solid grey 1px;
+    cursor: pointer;
+}
+
+#StartGame:active {
+    transform: scale(1.1, 1.1);
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+#endGame {
+    color: red;
+    font-size: 20px;
+    margin-top: 30vh;
+    padding: 50px 0px;
+    margin-left: 65vh;
+    background-color: rgb(2, 9, 41);
+    width: 500px;
+    border-radius: 7px;
+}
+
+#btn_Thoat {
+    border: none;
+    padding: 17px 10px;
+    background-color: rgba(12, 184, 147, 0.842);
+    margin-left: 2px;
+    border-radius: 6px;
+    color: red;
+    font-weight: bold;
+}
+
+#btn_restart {
+    border: none;
+    padding: 17px 10px;
+    background-color: rgba(12, 184, 147, 0.842);
+    margin-left: 2px;
+    border-radius: 6px;
+    color: red;
+    font-weight: bold;
+}
+
+#btn_Thoat:hover {
+    color: rgb(8, 52, 187);
+    transform: scale(1.05, 1.05);
+    border: solid grey 1px;
+    cursor: pointer;
+}
+
+#btn_restart:hover {
+    color: rgb(8, 52, 187);
+    transform: scale(1.05, 1.05);
+    border: solid grey 1px;
+    cursor: pointer;
+}
